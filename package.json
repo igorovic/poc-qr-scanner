@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "npx rollup -c rollup.config.js"
+    "build": "echo do-nothing",
+    "build:local": "npx rollup -c rollup.config.js"
   },
   "keywords": [],
   "author": "",
