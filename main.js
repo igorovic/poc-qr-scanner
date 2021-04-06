@@ -11,7 +11,7 @@ const qrScanner = new QrScanner(
   (err) => {
     pre.textContent = String(err);
   },
-  300,
+  undefined,
   "environment"
 );
 
